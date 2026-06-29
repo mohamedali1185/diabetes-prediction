@@ -4,7 +4,7 @@ import numpy as np
 from catboost import CatBoostClassifier
 
 model = CatBoostClassifier()
-model.load_model("f:/archive/diabetes_model.cbm")
+model.load_model("diabetes_model.cbm")
 
 
 st.title("Diabetes Prediction App")
